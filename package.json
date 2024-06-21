@@ -1,0 +1,19 @@
+{
+  "name": "keep-awake",
+  "version": "1.0.0",
+  "description": "serverless function to keep render servoce awake",
+  "main": "ping.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node ping.js",
+    "start": "vercel dev"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
